@@ -6,9 +6,60 @@ body {
 .header{
     width: 100%;
     height: 100px;
+    position: fixed;
+    height: 100px;
+    z-index: 4;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #fff;
+}
+.propous {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.sweech1 {
+    width: 550px;
+    height: 500px;
+    background: url(./1.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -80px;
+    left: 220px;
+    z-index: 2;
+}
+.sweech2 {
+    width: 400px;
+    height: 400px;
+    background: url(./3.webp) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    right: 190px;
+    z-index: 1;
+}
+.sweech3{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(122, 216, 221, 0.54);
+    background-size: cover;
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    z-index: 0;
+    opacity: 0.3; 
+}
+.sweet_text {
+    width:580px;
+    height: 500px;
+    position: absolute;
+    top: 430px;
+    left: 250px;
+    z-index: 1;
 }
 .logo {
     width: 20%;
@@ -56,7 +107,7 @@ body {
 } 
 .baner {
     width: 100%px;
-    height: 500px;
+    height: 700px;
     background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-background-pink-with-sky-and-clouds-shape_41066-2077.jpg?w=2000) no-repeat center center;
     background-size: cover;
     display: flex;
